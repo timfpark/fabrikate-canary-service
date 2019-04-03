@@ -1,4 +1,4 @@
-name: "canary"
+name: "stable"
 generator: "helm"
 source: "https://github.com/timfpark/istio-deployment-chart"
 method: "git"
