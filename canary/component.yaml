@@ -1,0 +1,4 @@
+name: "canary"
+generator: "helm"
+source: "https://github.com/timfpark/istio-deployment-chart"
+method: "git"

@@ -1,0 +1,10 @@
+name: "canary-service"
+subcomponents:
+  - name: "service"
+    generator: "helm"
+    source: "https://github.com/timfpark/istio-service-chart"
+    method: "git"
+  - name: "canary"
+    source: "./canary"
+  - name: "stable"
+    source: "./stable"
